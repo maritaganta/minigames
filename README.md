@@ -7,7 +7,9 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 ### 1. Wheel Spinner (`spinner.py`)
 **A colorful, resizable spinning wheel for random selections**
 
-![Wheel Spinner Demo](https://github.com/maritaganta/minigames/blob/main/media/spinner.gif)
+<div align="center">
+  <img src="https://github.com/maritaganta/minigames/blob/main/media/spinner.gif" width="400" alt="Spinner Demo">
+</div>
 
 #### Features:
 - 🖥️ Fully resizable window that adapts all elements
@@ -30,9 +32,7 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 ### 2. Mario Timer (`timer.py`)
 **A Super Mario-themed stopwatch with controls**
 
-<div align="center">
-  <img src="https://github.com/maritaganta/minigames/blob/main/media/spinner.gif" width="300" alt="Spinner Demo">
-</div>
+![Mario Themed Timer Demo](https://github.com/maritaganta/minigames/blob/main/media/timer.gif)
 
 #### Features:
 - 🍄 Mario-themed interface with custom fonts and colors
@@ -57,7 +57,7 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 **A colorful, resizable spinning wheel for random selections**
 
 <div align="center">
-  <img src="https://github.com/maritaganta/minigames/blob/main/media/mario_spinner.gif" width="300" alt="Spinner Demo">
+  <img src="https://github.com/maritaganta/minigames/blob/main/media/mario_spinner.gif" width="400" alt="Mario Themed Spinner Demo">
 </div>
 
 #### How to Play:
