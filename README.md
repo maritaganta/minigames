@@ -50,3 +50,15 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 #### Use Cases:
 - Speedrunning practice
 - Game time challenges
+
+### 3. Mario Themed Wheel Spinner (`mario_spinner.py`)
+**A colorful, resizable spinning wheel for random selections**
+
+![Wheel Spinner Demo](https://github.com/maritaganta/minigames/blob/main/media/mario_spinner.gif) 
+
+
+#### How to Play:
+1. Run `python src/mario_spinner.py`
+2. Press **SPACE** to spin the wheel
+3. When wheel stops, the selected option flashes
+4. Press **SPACE** again to reset and spin anew
