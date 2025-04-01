@@ -7,7 +7,7 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 ### 1. Wheel Spinner (`spinner.py`)
 **A colorful, resizable spinning wheel for random selections**
 
-![Wheel Spinner Demo](https://via.placeholder.com/600x400/222222/ffffff?text=Wheel+Spinner+Demo) *(Replace with actual gif/screenshot)*
+![Wheel Spinner Demo](https://github.com/maritaganta/minigames/blob/main/media/spinner.gif) 
 
 #### Features:
 - 🖥️ Fully resizable window that adapts all elements
