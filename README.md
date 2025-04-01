@@ -25,3 +25,28 @@ A collection of fun, lightweight Python games built with Pygame. Perfect for par
 #### Use Cases:
 - Drinking games
 - Classroom activities
+
+
+### 2. Mario Timer (`timer.py`)
+**A Super Mario-themed stopwatch with controls**
+
+![Mario Timer Demo](https://github.com/maritaganta/minigames/blob/main/media/timer.gif)
+
+#### Features:
+- 🍄 Mario-themed interface with custom fonts and colors
+- ⏱️ Accurate stopwatch functionality (hours:minutes:seconds)
+- 🎮 Three intuitive controls: Start, Pause, Reset
+- 🔄 Fully resizable window that maintains proportions
+- 🖱️ Button hover effects for better UX
+
+#### How to Play:
+1. Run `python src/mario_timer.py`
+2. Use the colorful buttons to control the timer:
+   - 🟢 **START**: Begins counting time
+   - 🔴 **PAUSE**: Temporarily stops the timer
+   - 🔵 **RESET**: Returns timer to 00:00:00
+3. Resize window as needed - all elements adapt automatically
+
+#### Use Cases:
+- Speedrunning practice
+- Game time challenges
