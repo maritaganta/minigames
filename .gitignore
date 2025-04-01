@@ -131,6 +131,7 @@ celerybeat.pid
 .env
 .venv
 .minigames
+.DS_store
 env/
 venv/
 ENV/
