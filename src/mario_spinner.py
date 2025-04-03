@@ -6,25 +6,40 @@ import time
 # Initialize Pygame
 pygame.init()
 
+mario = "Roll Again"
+luigi = "5 \n ~ 3 cans "
+peach = "-3 \n or drink"
+bowser = "attack ~ 2 cans"
+wario = "2 \n ~ 1 can"
+waluigi = "-1 \n or drink"
+
 # Initial window size
 INITIAL_WIDTH, INITIAL_HEIGHT = 600, 600
 
 OPTIONS = [
-    'Mario', 'Luigi', 'Peach', 'Yoshi', 'Toad',
-    'Bowser', 'Wario', 'Waluigi', 'Daisy', 'Rosalina'
+    mario, 
+    luigi, 
+    peach, 
+    # 'Yoshi', 
+    # 'Toad', 
+    bowser, 
+    wario, 
+    waluigi, 
+    # 'Daisy', 
+    # 'Rosalina'
 ]
 
 COLORS = [
     (255, 0, 0),       # Mario red
     (0, 180, 0),       # Luigi green
     (255, 180, 220),   # Peach pink
-    (100, 255, 100),   # Yoshi green
-    (255, 220, 150),   # Toad tan
+    # (100, 255, 100),   # Yoshi green
+    # (255, 220, 150),   # Toad tan
     (200, 100, 0),     # Bowser orange
     (255, 255, 0),     # Wario yellow
     (100, 0, 180),     # Waluigi purple
-    (255, 200, 0),     # Daisy yellow
-    (150, 200, 255)    # Rosalina blue
+    # (255, 200, 0),     # Daisy yellow
+    # (150, 200, 255)    # Rosalina blue
 ]
 
 # Setup resizable Pygame window
@@ -129,8 +144,8 @@ def draw_confetti():
 
 def draw_winner_box(selected_option, blink_state):
     # Box dimensions based on screen size
-    box_width = current_size[0] // 2.5
-    box_height = current_size[1] // 6
+    box_width = current_size[0] // 2
+    box_height = current_size[1] // 5
     
     # Mario-style box colors
     box_color = (255, 215, 0) if blink_state else (255, 180, 0)  # Gold/Orange blink
@@ -162,8 +177,8 @@ def draw_winner_box(selected_option, blink_state):
 
 # Sound effects
 try:
-    spin_sound = pygame.mixer.Sound("mario_spin.wav")
-    win_sound = pygame.mixer.Sound("mario_win.wav")
+    spin_sound = pygame.mixer.Sound("./data/mario_spin.wav")
+    win_sound = pygame.mixer.Sound("./data/mario_win.wav")
     has_sound = True
 except:
     has_sound = False
@@ -204,7 +219,7 @@ while running:
             if has_sound: win_sound.play()
             normalized_angle = (-angle % 360)
             selected_index = int((normalized_angle + (180/len(OPTIONS))) // (360//len(OPTIONS))) % len(OPTIONS)
-            selected_option = OPTIONS[selected_index - 3]
+            selected_option = OPTIONS[selected_index - 2]
             waiting_for_reset = True
 
     # Drawing
